@@ -1,0 +1,111 @@
+/*.CSS creer un compte*/
+main{
+    color:rgb(62, 27, 27) ;
+  }
+  form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+  }
+  /* création d'une grille organisant les différents champs */
+  fieldset {
+      display:grid;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      grid-template-columns: 1fr, 1fr;
+      padding: 40px;
+      margin-bottom: 200px;
+ 
+  
+      
+      
+  
+  }
+  .profil{
+    position: relative;
+top: 40px;
+    background-color:#d6d2d2 ;
+    border: solid 0.5px #000;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    padding: 50px;
+    
+  }
+  .profile-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container h2 {
+    margin-top: 0px;
+}
+
+.profile-container p {
+    margin-bottom: 10px;
+}
+
+.profile-container ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.logout-button{
+    background-color: rgb(110, 20, 20);
+}
+  .profil li{
+    padding:5px;
+  }
+  .burger-container {
+    display: block;
+    position: absolute;
+    height: 66px;
+  z-index: 999;
+  
+    left: 20px;
+    top: 115px;
+  }
+  .burger-container.active{
+    display:none;
+  }
+  .annuler{
+    background-color: rgb(110, 20, 20)
+  }
+  
+  
+  button {
+    color:white;
+    font-size: larger;
+    background-color:rgb(5, 88, 15);
+    height: 40px;
+    margin:15px;
+    transition: 0.1s;
+    border-radius:4px
+  }
+  button:hover{
+    transform: scale(1.04);
+  }
+
+  .titreformu{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+    margin-left: 40px;
+    color: rgb(62, 27, 27);
+  }
+  @media screen and (max-width: 362px){
+    fieldset{
+     display: block;
+    }
+   }

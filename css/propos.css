@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.logo img{
+    width: 120px;
+    margin: auto;
+    padding-left: 25px;
+
+    
+    
+}
+.burger-container {
+    display: block;
+    position: absolute;
+    height: 66px;
+  z-index: 999;
+  
+    left: 20px;
+    top: 115px;
+  }
+  .burger-container.active{
+    display:none;
+  }
+.titrefondateur{
+    text-align: center;
+    color: #6d071a;
+}
+.logo h2{
+    margin: auto;
+}
+.logo p {
+    margin: auto;
+    font-size: x-small;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    color: #6d071a;;
+    margin: 20px 0px;
+}
+.description{
+    margin: auto;
+    background-color: rgb(214, 210, 210);
+    border: solid 0.5px;
+    border-radius: 2%;
+    box-shadow:-5px 0px 20px  black;
+    padding: 7px;
+    text-align: justify;
+  
+}
+.fin{
+    color: #6d071a;
+    font-family:'Lobster' ;
+    
+}
+.rouge{
+    color: #6d071a;
+}
+.containeraure{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 3%;
+
+    grid-template-areas: 
+    "i1 i2"
+    "0 i4";
+    
+    margin: 10px;
+    padding-top: 40px;
+    color: rgb(62, 27, 27);
+
+    
+}
+.containeraure p{
+   grid-area:i4 ; 
+   margin-top: -200px;
+   padding-left: 10px;
+}
+.containerlucie{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 3%;
+
+    grid-template-areas: 
+    "i1 i2"
+    "0 i4";
+    padding-top: 40px;
+    margin: 10px;
+    color: rgb(62, 27, 27);
+    
+}
+.containerlucie img {
+    grid-area: i2;
+    border-radius: 50%;
+}
+.containeraure img {
+    border-radius: 50%;
+}
+.containerlucie p{
+    grid-area:0 ;
+    margin-top: -250px; 
+    padding-left: 10px;
+ }
+ @media screen and (max-width:481px){
+    .container {
+        display: block;
+        position: relative;
+
+    }
+    .container img {
+        width:150px ;
+    }
+    .containerlucie{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .container p{
+        position: absolute;
+        margin-top: 0px;
+
+    }
+  
+}

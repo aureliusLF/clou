@@ -1,0 +1,345 @@
+{
+  "merlot": {
+    "titre": "Merlot",
+    "description": "Le merlot est l’amabilité faite raisin noir, le fruit sur lequel de nombreux élaborateurs basent leur vins en sachant que le public les appréciera et comprendra sans problème. Cependant, bien que répandu dans le monde entier et étant capable d’offrir la plupart du temps des vins très corrects, n’en croyons pas pour autant que le merlot est un raisin dépourvu de caractère : il suffit de rappeler que l’un des vins les plus fameux et les plus appréciés au monde, le Château Petrus, est principalement élaboré à base de merlot.",
+    "produits": [
+      {
+        "image": "assets/merlot1.jpg",
+        "nom": "Chateau Cantin",
+        "ref": "001",
+        "prix": "31,5€",
+        "stock": 15
+      },
+      {
+        "image": "assets/merlot2.jpeg",
+        "nom": "Chateau Sergent",
+        "ref": "002",
+        "prix": "21,7€",
+        "stock": 20
+      },
+      {
+        "image": "assets/merlot3.jpeg",
+        "nom": "Chateau Petrus",
+        "ref": "003",
+        "prix": "21,7€",
+        "stock": 25
+      },
+      {
+        "image": "assets/merlot4.jpeg",
+        "nom": "Rôche Mazet",
+        "ref": "004",
+        "prix": "10,0€",
+        "stock": 30
+      }
+    ]
+  },
+  "pinotnoir": {
+    "titre": "Pinot Noir",
+    "description": "Le pinot noir est un raisin à la fois adoré et haï : adulé par son élégance et sa capacité à émouvoir, détesté par les difficultés que présente sa culture. C’est depuis le Moyen Âge qu’il est implanté en France. Les moines de Cîteaux et de Cluny seraient les authentiques fondateurs du vignoble bourguignon de pinot noir ; ils misèrent fermement sur son implantation majoritaire et firent du grain noir délicat le synonyme de vin rouge de Bourgogne. De nos jours, nous le trouvons dans une grande partie du vignoble mondial mais avec des résultats très divers: Le Jura et l’Oregon, l’Autriche et l’Allemagne, le Haut Adige ou les zones les plus fraîches de la Nouvelle Zélande. Son nez dégage des arômes de cerises, de fraises et de framboises ; vieilli, de chasse, de cuir et de champignons ou de prunes noires, dans les vins de Californie par exemple. Corps éthéré tout en étant profond, ample et soyeux, souvent parfumé d’arômes fumés et d’encens",
+    "produits": [
+      {
+        "image": "assets/pinotnoir.jpeg",
+        "nom": "Pinot Noir Alsace",
+        "ref": "005",
+        "prix": "31,5€",
+        "stock": 15
+      },
+      {
+        "image": "assets/pinotnoir2.jpeg",
+        "nom": "Sancerre",
+        "ref": "006",
+        "prix": "21,7€",
+        "stock": 20
+      },
+      {
+        "image": "assets/pinotnoir3.jpeg",
+        "nom": "Faiveley",
+        "ref": "007",
+        "prix": "21,7€",
+        "stock": 25
+      },
+      {
+        "image": "assets/pinotnoir4.jpeg",
+        "nom": "Couvent Jacobin",
+        "ref": "008",
+        "prix": "10,0€",
+        "stock": 30
+      }
+    ]
+  },
+  "chardonnay": {
+    "titre": "Chardonnay",
+    "description": "Le chardonnay est le raisin blanc le plus prestigieux au monde. De son fief historique, la Bourgogne, il a voyagé pratiquement dans tous les coins du monde et montré une facilité innée d’adaptation à tous types de climats et de sols. Il semblerait que ce furent les sages moines qui étendirent sa culture sur les terres bourguignonnes et qui misèrent fortement sur son implantation majoritaire. C'est le raisin blanc de la majorité des vins blancs de Bourgogne et l’élément indiscutable des meilleurs et des plus prestigieux vins de la Côte d'Or, Montrachet en tête. Il l'est tout aussi en Champagne, où il occupe près d’un tiers du vignoble, et il est crucial sur la Côte des Blancs, offrant ses arômes et son élégance aux meilleurs mousseux ; le Languedoc, l'Italie, l'Espagne, l'Australie, le Chili, la Californie et l'Oregon sont aussi parmi les terres où le chardonnay s'est adapté à la perfection ; mais en chacune d'elles il montre une face distincte. Il peut être froid, minéral et poli dans le Chablis ou crémeux et doucement épicé en Californie. Ses arômes peuvent passer des tons citriques des régions les plus froides aux tons les plus tropicaux sous des climats plus chauds. Cependant le chardonnay se trahit presque toujours par un rappel de pomme et de miel et une élégante note florale revêtue de fine viennoiserie, et ce dans tous les pays du monde.",
+    "produits": [
+      {
+        "image": "assets/chardonnay1.jpeg",
+        "nom": "Louis Jadot",
+        "ref": "009",
+        "prix": "31,5€",
+        "stock": 15
+      },
+      {
+        "image": "assets/chardonnay2.jpeg",
+        "nom": "Chorey les Beaume",
+        "ref": "010",
+        "prix": "21,7€",
+        "stock": 20
+      },
+      {
+        "image": "assets/chardonnay3.jpeg",
+        "nom": "Louis Latour",
+        "ref": "011",
+        "prix": "21,7€",
+        "stock": 25
+      },
+      {
+        "image": "assets/chardonnay4.jpeg",
+        "nom": "Vougeot -2020",
+        "ref": "012",
+        "prix": "10,0€",
+        "stock": 30
+      }
+    ]
+  },
+  "sauvignon": {
+  "titre": " Cabernet Sauvignon",
+  "description": "Le sauvignon blanc est un raisin intrépide, qui ne craint pas de voyager et de se lancer dans de nouvelles aventures. C’est ainsi qu’actuellement, il se trouve dans pratiquement dans tous les pays bons producteurs de vin, de la France à la Nouvelle Zélande en passant par l’Espagne, l’Italie, le Chili ou l’Australie. On le reconnaît partout mais les distinctes latitudes et les sols divers lui confèrent de splendides nuances qui valent la peine d’être découvertes : orties, pêches, groseille à maquereau, pomelos... tous ces arômes et bien d’autres peuvent se découvrir dans une bouteille de sauvignon blanc. Il s’agit d’une variété qui débourre tard et mûrit tôt, c’est-à-dire, de cycle court. Elle aime le soleil mais modérément car un excès de température peut détruire son arôme suggestif. Les maturations lentes favorisent la concentration d’arômes le sauvignon blanc se sent donc bien sous des climats frais ou à une certaine altitude. Lorsque ces conditions ne sont pas remplies, de nombreux vendangeurs tendent à le ramasser avant son point optimal de maturation pour en garantir la fraîcheur, sacrifiant ainsi une partie de ses arômes. Au contraire, une vendange tardive dénaturerait l’essence du sauvignon et donnerait des vins gras et plats. Ses origines semblent provenir du Val de Loire et du sud-ouest français, mais ce ne fut qu’avec son irruption sur les terres de Marlborough en Nouvelle Zélande, vers 1973, que le cépage commença à devenir vraiment internationalement populaire.",
+  "produits": [
+  {
+  "image": "assets/sauvignon1.jpeg",
+  "nom": "Saint Bris",
+  "ref": "013",
+  "prix": "31,5€",
+  "stock": 15
+  },
+  {
+  "image": "assets/sauvignon2.jpeg",
+  "nom": "Riffault Akméniné",
+  "ref": "014",
+  "prix": "21,7€",
+  "stock": 20
+  },
+  {
+  "image": "assets/sauvignon3.jpeg",
+  "nom": "Uby n°3",
+  "ref": "015",
+  "prix": "21,7€",
+  "stock": 25
+  },
+  {
+  "image": "assets/sauvignon4.jpeg",
+  "nom": "Domaine Horgelus",
+  "ref": "016",
+  "prix": "10,0€",
+  "stock": 30
+  }
+  ]
+  },
+  "sangiovese": {
+   
+  "titre": "Sangiovese",
+  "description": "Les études faites sur son origine la situent en Toscane et il semblerait que son nom provienne de l’évolution des termes sanguis et jovis (le sang de Jupiter). Ce premier cépage que quelqu’un décida de nommer en l'honneur du dieu des dieux, évolua avec le temps de façon très diverse pour arriver de nos jours aux actuels clones et, par conséquent, à des vins aux caractères fortement différenciés eux aussi. Le style traditionnel des vins de sangiovese combine avec maestria douceur et amertume, en un profil aromatique (cerises et herbes) que beaucoup associent presque instantanément au vin italien. Les styles les plus internationalisés ont saveur de mûres et de prunes noires et sont marqués par leur passage en barrique neuve. Chianti est une région ample et diverse et il est donc possible d’y retrouver tous les styles et toutes les qualités imaginables. En général, le sangiovese se distingue par son acidité et ses tanins particulièrement riches, et évidemment par sa structure importante, bien qu'il se distingue par une élégance innée que l'intervention de l'homme peut encore adoucir.",
+  "produits": [
+  {
+  "image": "assets/sangiovese.jpeg",
+  "nom": "Di Vitigliano",
+  "ref": "017",
+  "prix": "47€",
+  "stock": 15
+  },
+  {
+  "image": "assets/sangiovese2.jpeg",
+  "nom": "Di Montalcino",
+  "ref": "018",
+  "prix": "31€",
+  "stock": 20
+  },
+  {
+  "image": "assets/sangiovese3.jpeg",
+  "nom": "Trame 2017",
+  "ref": "019",
+  "prix": "51€",
+  "stock": 25
+  },
+  {
+  "image": "assets/sangiovese4.jpeg",
+  "nom": "Isole E olena",
+  "ref": "020",
+  "prix": "30€",
+  "stock": 30
+  }
+  ]
+  },
+  "nerodavola": {
+  "titre": "Nero d'Avola",
+  "description": "Le nero d'Avola fut la variété reine des vins de Sicile avant l'arrivée des cépages internationaux et avant les expérimentations les plus récentes faites sur les sols volcaniques de l'île. Un raisin généreux et enchanteur, velouté et avec une salinité aux rappels marins, dont les élaborations garantissent actuellement qu'il s'agit d'un grand vin, avec une surprenante verticalité et de longs élevages. Il incarne l'esprit contradictoire de la Sicile, à la fois douce et amère. Le nero d'Avola a acquis une impressionnante polyvalence : des vins jeunes de facile consommation aux vins doux destinés à la méditation, ce cépage autochtone et racé arrive à exprimer, de façon exemplaire, la forte territorialité de cet espace",
+  "produits": [
+  {
+  "image": "assets/nerodavola.jpeg",
+  "nom": "Nero di Lupo",
+  "ref": "021",
+  "prix": "18€",
+  "stock": 15
+  },
+  {
+  "image": "assets/nerodavola2.jpeg",
+  "nom": "Di pianogrillo",
+  "ref": "022",
+  "prix": "11€",
+  "stock": 20
+  },
+  {
+  "image": "assets/nerodavola3.jpeg",
+  "nom": "Contrada 2017",
+  "ref": "023",
+  "prix": "51€",
+  "stock": 25
+  },
+  {
+  "image": "assets/nerodavola4.jpeg",
+  "nom": "Carli Sicilia",
+  "ref": "024",
+  "prix": "20€",
+  "stock": 30
+  }
+  ]
+  },
+  "glera": {
+    "titre": "Glera",
+    "description": "Selon certains chercheurs, le glera existait déjà en Vénétie à l'époque romaine. Peut-être, mais l'histoire de ce raisin est certainement plus récente : c'est en fait le raisin avec lequel on produit le Prosecco. C'est un vin au succès énorme, dont l'histoire commerciale a conduit le législateur italien à étendre l'appellation qui lui était réservée, passant de la zone classique de Trévise, à tout le Triveneto : toute la Vénétie et une grande partie du Frioul. Par conséquent, le glera s'est énormément répandue dans la zone, supplantant d'autres cépages. D'une excellente vigueur et d'une productivité constante, le glera est un raisin particulièrement peu acide (traditionnellement il était corrigé lors de la vinification avec le raisin local verdiso), et capable d'une bonne concentration aromatique et sucrée uniquement dans les zones les plus appropriées.",
+    "produits": [
+      {
+        "image": "assets/glera1.jpeg",
+        "nom": "Prosecco Valdobbiadene",
+        "ref": "025",
+        "prix": "21,5€",
+        "stock": 15
+      },
+      {
+        "image": "assets/glera2.jpeg",
+        "nom": "Prosecco Conegliano",
+        "ref": "026",
+        "prix": "16,7€",
+        "stock": 20
+      },
+      {
+        "image": "assets/glera3.jpeg",
+        "nom": "La Marca",
+        "ref": "027",
+        "prix": "12,7€",
+        "stock": 25
+      },
+      {
+        "image": "assets/glera4.jpeg",
+        "nom": "Astoria",
+        "ref": "028",
+        "prix": "10,0€",
+        "stock": 30
+      }
+    ]
+  },
+    "moscato": {
+      "titre": "Moscato",
+      "description": "La famille des muscats a des origines très anciennes, grecques et orientales. Le muscat est un raisin aromatique d'une grande finesse et d'une grande élégance, principalement blanc, mais aussi noir. Le muscat blanc (moscato bianco) représente le type de muscat le plus courant et le plus précieux, à tel point qu'il est utilisé pour faire des vins, principalement doux, en France comme en Italie, qui peut être considérée comme son pays d’élection. Le muscat blanc donne un vin de paille pâle, aux parfums aromatiques qui évoquent le musc frais (auquel il doit son nom), la sauge, la pêche, la rose jaune. Chaque gorgée est généralement assez douce et fraîche, avec un finale amer en bouche caractéristique.",
+      "produits": [
+      {
+      "image": "assets/moscato.jpeg",
+      "nom": "Di Pantalleria",
+      "ref": "029",
+      "prix": "25€",
+      "stock": 15
+      },
+      {
+      "image": "assets/moscato2.jpeg",
+      "nom": "Florio",
+      "ref": "030",
+      "prix": "10€",
+      "stock": 20
+      },
+      {
+      "image": "assets/moscato3.jpeg",
+      "nom": "Asti Canti",
+      "ref": "031",
+      "prix": "9,0€",
+      "stock": 25
+      },
+      {
+      "image": "assets/moscato4.jpeg",
+      "nom": "Asti Tresoli",
+      "ref": "032",
+      "prix": "10€",
+      "stock": 30
+      }
+      ]
+    },
+  "selection1": {
+    "produits": [
+    {
+    "image": "assets/pinotnoir3.jpeg",
+    "nom": "Faveley - (2020)",
+    "ref": "007",
+    "prix": "45€",
+    "stock": 15
+    },
+    {
+    "image": "assets/merlot3.jpeg",
+    "nom": "Château Cantin",
+    "ref": "001",
+    "prix": "31€",
+    "stock": 20
+    },
+    {
+    "image": "assets/chardonnay4.jpeg",
+    "nom": "Vougeot - (2020)",
+    "ref": "012",
+    "prix": "130€",
+    "stock": 25
+    },
+    {
+    "image": "assets/sauvignon2.jpeg",
+    "nom": "Riffault Akméniné",
+    "ref": "014",
+    "prix": "21€",
+    "stock": 30
+    
+  }
+    ]
+},
+    "selection2":{
+    "produits": [
+    {
+    "image": "assets/sangiovese3.jpeg",
+    "nom": "Trame 2017",
+    "ref": "019",
+    "prix": "51€",
+    "stock": 15
+    },
+    {
+    "image": "assets/nerodavola3.jpeg",
+    "nom": "Contrada 2017",
+    "ref": "023",
+    "prix": "51€",
+    "stock": 20
+    },
+    {
+    "image": "assets/glera2.jpeg",
+    "nom": "Prosecco",
+    "ref": "026",
+    "prix": "79€",
+    "stock": 25
+    },
+    {
+    "image": "assets/moscato.jpeg",
+    "nom": "Di Pantalleria",
+    "ref": "004",
+    "prix": "29€",
+    "stock": 30
+    }
+    ]
+  }
+}    
+    
+    
+          
+       
+  

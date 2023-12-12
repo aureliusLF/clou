@@ -1,0 +1,410 @@
+/* import de la fonts et background */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+main {
+    color: rgb(253, 228, 196);
+}
+
+
+
+.cepage h2
+ {
+    color: #000000;
+}
+.selection h2 {
+    color: #000000;
+}
+ 
+
+ #grappe {
+  margin: 19px;
+
+}
+.burger-container {
+  display: block;
+  position: absolute;
+  height: 66px;
+z-index: 999;
+
+  left: 20px;
+  top: 115px;
+}
+.burger-container.active{
+  display:none;
+}
+/* style de la case menant a L'Italie */
+.l_italie{
+  margin-left: 120px;
+  margin-right: -20px;
+}
+/* création de la grille conteant l'image et la citation */
+.container1{
+ 
+  margin-top: 20px;
+  margin-left: 7px;
+ display: grid;
+ grid-template-columns: 30%  10% 60%;
+ box-shadow:-5px -5px 10px  black;
+  height:auto ;
+  width: 90%;
+  
+  background-color: #6d071a;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0fr;
+  grid-template-areas: 
+  "i1 i2"
+  "i3 vi";
+  
+
+}
+/* placement de la citation dans la grille */
+#citation {
+  grid-area: i3;
+  font-style: italic;
+ margin-top: -30px;
+ font-family: 'Charm', cursive;
+ 
+}
+/* placement de l'image dans la grille */
+
+.l_italie img{
+  height: 20vh;
+  width: 100vh;
+  margin-right: 100px;
+  object-fit: cover;
+  object-position: 10px;
+  grid-area: i2;
+  box-shadow:0px 0px 10px  black;
+  
+}
+/* placement du titre */
+.l_italie h1{
+  padding-left:25px ;
+  text-align: center;
+  grid-area: i1;
+ 
+  
+  
+}
+
+/* création du style de la deuxieme case */
+.histoire {
+  margin-right: 150px;
+}
+/* création de la grille séparant le titre du texte */
+.container2{
+position:relative;
+margin-top: 20px;
+ display: grid;
+ box-shadow:5px 10px 10px  black;
+ background-color: #6d071a;
+  padding: 10px;
+  grid-template-columns: 0.4fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "i1 i2";
+
+
+}
+
+.titre2{
+  grid-area: i1;
+  padding-left: 30px;
+}
+/* création du style de la rebrique cépage  */
+.noscep,
+.notresel {
+  text-align: center;
+  color: #000;
+}
+
+/* .panier_produit{
+  position: relative;
+  left: -150px;
+  top: -5px;
+  
+    z-index: 0;
+  } */
+
+.cepage
+{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+}
+/* création de la grille contenant les 4 cépages */
+  .cepgrid
+ {
+    max-width: 1400px;
+    width: 90%;
+   height: auto;
+
+   
+   padding: 3px;
+
+    display: grid;
+   grid-template-columns: repeat(auto-fill,200px) ;
+   justify-content: center;
+   grid-gap: 11px;
+   
+
+
+  
+  }
+    /* style de chaque nom de cépage */
+  .cepgrid li 
+  {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color:#d6d2d2 ;
+    height: 200px;
+    width: 12em;
+    border-radius: 2%;
+   
+ 
+  }
+.cep
+{
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 80% 20%;
+  /* border: solid 0.5px #000; */
+  padding: 2%;
+  grid-template-areas:
+  "i1 i2"
+  "i3 i4";
+}
+.cep img
+{
+  width: 160px;
+  grid-area: i1;
+
+}
+
+
+.noscep ,
+.notresel{
+  text-align: center;
+  color: rgb(62, 27, 27);}
+.cep
+{
+  text-decoration: none;
+  color: rgb(62, 27, 27); 
+}
+/* style de l'interieur des cases */
+.cep li 
+ {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-weight: 900;
+
+}
+/* .imgbase5{
+  width: 100px;
+}
+.imgbase6{
+  width: 150px;
+}
+.imgbase7{
+  width: 150px;
+}
+.imgbase8{
+  width: 150px;
+} */
+/* création de la rebrique product*/
+.titreproduit {
+  text-align: center;
+  color: #000;
+}
+
+
+  /* conteneur parent en display flex */  
+/* .product{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+} */
+/* création de la grille contenant les 4 autres grilles  */
+  /* .produitgrid{
+    max-width: 1400px;
+    width: 90%;
+   height: auto;
+
+   
+   padding: 3px;
+
+    display: grid;
+   grid-template-columns: repeat(auto-fill,200px) ;
+   justify-content: center;
+   grid-gap: 18px;
+   
+
+
+  
+  } */
+  /* style de chaque case */
+  /* .produitgrid li {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #fff;
+    height: 200px;
+    width: 12em;
+    border-radius: 2%;
+   
+ 
+  } */
+  /* grille composant chaque produit */
+/* .produit{
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 80% 20%;
+
+  padding: 2%;
+  grid-template-areas:
+  "i1 i2"
+  "i3 i4";
+  text-decoration: none;
+} */
+/* adaptation des images au cadres */
+/* .produit img{
+  width: 40px;
+  grid-area: i1;
+}
+.produit1 img{
+  width: 140px;
+  grid-area: i1;
+}
+.produit2 img{
+  width:45px ;
+}
+.produit3 img {
+  width: 140px;
+  grid-area: i1;
+} */
+
+
+/* adaptation de la description et du prix  */
+/* 
+.description {
+  grid-area: i3;
+  margin-top: -15px;
+  color: #000;
+  font-weight: 700;
+  
+  
+}
+.description2 {
+  grid-area: i3;
+  margin-top: 0px;
+  color: #000;
+  font-weight: 700;
+  
+} */
+
+
+/* .prix {
+  grid-area: i4;
+  color: #6d071a;
+  font-size :20px;
+  margin-top: 4%;
+  
+
+} */
+/* media et animation */
+.cep
+{
+ 
+  -webkit-transition: all 0.3s ease; /* Safari et Chrome */
+  transition: all 0.3s ease;
+  }
+ .cep:hover
+{
+
+  -webkit-transform:scale(1.08); /* Safari et Chrome */
+  transform:scale(1.08); 
+  }
+
+@media screen and (max-width: 800px){
+   .container1{
+    display: block;
+   }
+   @media  screen and (max-width: 400px) { 
+    .container1{
+      margin-top: -22px;
+    }
+      
+    }
+  }
+ 
+  @media  screen and (max-width: 370px) { 
+    .l_italie img{
+      height: 88px;
+      width: 10rem;
+    }
+  }
+  @media  screen and (min-width: 370px) { 
+    .l_italie img{
+      height: 95px;
+      width: 13rem;
+    }
+  }
+
+             @media  screen and (min-width: 470px) { 
+    .l_italie img{
+      height: 100px;
+      width: 15rem;
+    }
+  }
+              @media  screen and (min-width: 566px) { 
+              .l_italie img{
+                height: 120px;
+                width: 25rem;
+              }
+            }
+           
+
+            @media  screen and (min-width: 900px) { 
+              .l_italie img{
+                height: 150px;
+                width: 30rem;
+              }
+            }
+           
+            @media  screen and (min-width: 1011px) { 
+              .l_italie img{
+                height: 170px;
+                width: 25rem;
+              }
+            }
+              @media  screen and (min-width: 1200px) { 
+                .l_italie img{
+                  height: 160px;
+                  width: 45rem;
+                }
+              }
+              @media  screen and (min-width: 1300px) { 
+                .l_italie img{
+                  height: 160px;
+                  width: 48rem;
+                }
+              }
+              @media  screen and (max-width: 370px) { 
+               .histoire {
+                  font-size: 0.6rem;
+                }
+              }

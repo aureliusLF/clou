@@ -1,0 +1,66 @@
+/*.CSS creer un compte*/
+main{
+  color:rgb(62, 27, 27) ;
+}
+form{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+/* création d'une grille organisant les différents champs */
+fieldset {
+    display:grid;
+   background-color: #f2f2f2;
+      border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    grid-template-columns: 1fr, 1fr;
+    grid-template-areas: 
+    "1 2"
+    "3 4"
+    "5 6"
+    "7 8"
+    "9 10"
+    "11 12"
+    "13 14"
+    "15 16"
+    "17 18"
+    "19 20";
+
+    
+    
+
+}
+.burger-container {
+  display: block;
+  position: absolute;
+  height: 66px;
+z-index: 999;
+
+  left: 20px;
+  top: 115px;
+}
+.burger-container.active{
+  display:none;
+}
+.annuler{
+  background-color: rgb(110, 20, 20)
+}
+
+
+button {
+  color:white;
+  background-color:rgb(5, 88, 15);
+
+  margin:15px;
+}
+.titreformu{
+  text-align: center;
+  margin-left: 40px;
+  color: rgb(62, 27, 27);
+}
+@media screen and (max-width: 362px){
+  fieldset{
+   display: block;
+  }
+ }

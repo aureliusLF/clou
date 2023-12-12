@@ -1,0 +1,406 @@
+
+/* style générale de la banniere et du body */
+#banniere{
+
+    display: grid;
+    grid-template-columns: 10% 90%;
+   background-color: rgba(251, 231, 204, 0.752);
+    position: relative;
+
+    margin: -10px;
+    
+  
+}
+ #banniere.active{
+
+  display: grid;
+
+
+} 
+
+
+body{
+  background-color: rgba(243, 217, 184, 0.441);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-attachment: fixed;
+  background-size:cover;
+ 
+  
+}
+
+/* .retour{
+  position: absolute;
+  bottom: -1099px;
+  right: 20px;
+  color: antiquewhite;
+  list-style-type: none;
+  text-decoration: none;
+} */
+/* construction du menu principale */
+.menu{
+    display:flex;
+    padding: 0%;
+    justify-content:space-around;
+    margin-top: 42px;
+  
+    z-index: 10000;
+    margin-left: 25px;
+
+
+  }
+  .menu li {
+    list-style: none;
+  
+  
+  }
+  /* style des liens apparenté au menu */
+ .menu a{
+    display : block;
+    padding-right : 0.4em;
+    padding-left : 0.4em;
+    color:#000;
+    text-decoration : none; 
+    font-size: larger;
+    font-weight: 800;
+    font-size: 100%;
+     color: rgb(62, 27, 27);
+     transition: all 0.4s; 
+     transform: translateY(-50%) ;
+     justify-content: center;  
+     z-index: 100000;
+    
+    
+ }
+ 
+ /* style des animation au contact de la souris */
+ .rouge,
+ .blanc,
+ .propos,
+ .part{
+  transition: all 0.4s;
+
+ }
+ .rouge:hover ,
+ .blanc:hover,
+ .propos:hover,
+ .part:hover
+ {
+ transform: scale(1.10);
+ }
+ .sous{
+  position: absolute;
+  width: 70px;
+  left: -999em; 
+  z-index:  999;
+
+
+  
+  
+
+  
+}
+/* construction des styles des sous menus appliqué au menu principale */
+.sous li{
+
+border-right: none;
+width: 150px;		
+background:  rgba(251, 231, 204, 0.95);
+text-align : center;
+line-height : 30px;
+margin-right: -20px;
+font-size: larger;
+font-weight: 800;
+font-size: 100%;
+ color: rgb(62, 27, 27);
+ z-index: 100;
+ 
+
+   
+  
+
+}
+.menu li:hover ul, #menu li.sfhover ul /* Sous-listes lorsque la souris passe sur rouge ou blanc */
+{
+left: auto; /* Repositionnement normal */
+margin-left: -67px;
+margin-top: 8px;
+z-index: 999;
+
+
+}
+
+ #grappe {
+  margin: 19px;
+
+}
+/* constrction du menu hamburger  */
+.burger-container input[type="checkbox"],
+.burger-container .burger-lines {
+  display: block;
+}
+.burger-container:hover{
+  -webkit-transform:scale(1.10); /* Safari et Chrome */
+  transform:scale(1.10); 
+  -webkit-transition: all 0.3s ease; /* Safari et Chrome */
+  transition: all 0.4s ease;
+}
+/* cosntruction du bloc contenant le burger */
+
+.burger-container input[type="checkbox"] {
+  position: absolute;
+  display: block;
+  height: 37px;
+  width: 34px;
+  top: 10px;
+  left: 18px;
+  z-index: 5;
+  opacity: 0;
+}
+/* construction des styles des lignes constituant le burger */
+.burger-container .burger-lines {
+  display: block;
+  height: 30px;   
+  width: 34px;
+
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burger-container .burger-lines .line1 ,.line3 {
+  display: block;
+  margin-left: 4px;
+  height: 7px;
+  width: 100%;
+  border-radius: 20px;
+  background:  rgb(62, 27, 27);
+}
+.line2 {
+display: block;
+height: 7px;
+width: 43px;
+border-radius: 20px;
+background:  rgb(62, 27, 27);
+}
+.burger-container .burger-lines  {
+  transition: 1s;
+}
+/* construction du style de la page apparaissant au contact de la souris  */
+.burger .menu-items {
+  padding-top: 100px;
+  background:   rgba(251, 231, 204, 0.937);
+  height: 100vh;
+  max-width: 300px;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  padding-right: 10px;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 5px 0px 10px 0px #aaa;
+}
+
+.burger .menu-items li {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: rgb(62, 27, 27);
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: larger;
+   font-weight: 800;
+   font-size: 100%;
+}
+/* style des boutons connexion et panier et leurs animations  */
+.connexionpanier {
+    position: absolute;
+    display: flex;
+    top: -5px;
+    margin-left: 60%;
+    right: 5px;
+    padding: 4px;
+    padding-left: -20px;
+    justify-content:end;
+    
+  
+  }
+  .panier:hover{
+    background-color: #520505;
+    color: rgb(253, 228, 196);
+    
+  }
+  .coco:hover{
+    background-color: #520505;
+    color: rgb(253, 228, 196);
+    
+  }
+
+  .connexionpanier li{
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0.7px;
+    
+    
+  }
+  .connexionpanier a {
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+   font-size: 100%;
+    color: rgb(62, 27, 27);
+    transition: all 0.7s; 
+    transform: translateY(-50%) ;
+    font-weight: 600;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+   
+  }
+
+/* construction du style du footer */
+.information,
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenu-footer{
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+    max-width: 1400px;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(39, 4, 5);
+    margin-top: 10px;
+  }
+  footer{
+    
+    color: rgb(253, 228, 196);
+    margin-top: 100px;
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    background-color: rgb(39, 4, 5); 
+  }
+  /* media queries */
+
+  .burger-container .burger-lines .line1 {
+    transform-origin: top right ;
+    transition: transform 1s ease-in-out;
+  }
+
+  .burger-container .burger-lines .line2 {
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .burger-container .burger-lines .line3 {
+    transform-origin: bottom right ;
+    transition: 0.7s ;}
+ .burger-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+
+ }
+
+.burger-container input[type="checkbox"]:checked ~ .burger-lines  {
+    transform: rotate(90deg);
+  }
+      .burger-container input[type="checkbox"]:checked ~ .burger-lines .line1 {
+        
+        transform: rotate(-45deg);
+       
+}
+
+.burger-container input[type="checkbox"]:checked ~ .burger-lines .line2 {
+   transform: scaleY(0);
+   transition: 0.5s;
+}
+
+.burger-container input[type="checkbox"]:checked ~ .burger-lines .line3 {
+    
+    transform: rotate(45deg);
+} 
+/* constrction du menu hamburger  */
+
+
+
+.line4{
+  transform: rotate(-46deg);
+  transform-origin: top right ;
+ 
+}
+
+.line5{
+  transform: rotate(47deg);
+  transform-origin: bottom right ;
+  
+}
+.croix:hover,
+.croix:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  @media  screen and (max-width: 400px) { 
+    .menu{ font-size: 0.5rem;
+      
+    }
+  }
+  @media  screen and (max-width: 400px) { 
+   .menu2{ font-size: 0.5rem;
+     
+   }
+ }
+ @media  screen and (max-width: 700px) { 
+   .connexionpanier{ font-size: 0.9rem;
+     
+   }
+ }
+  @media  screen and (max-width: 650px) { 
+   .connexionpanier{ font-size: 0.8rem;
+     
+   }
+ }
+  @media  screen and (max-width: 400px) { 
+    .connexionpanier{ font-size: 0.5rem;
+      
+    }
+  }
+  @media screen and (max-width: 400px){
+    #grappe{
+      width: 30px;
+    }
+    
+  }
+  @media screen and (min-width: 100px){
+    .croix{
+      right: 5px;
+      color: #520505;
+    }
+    
+  }
+  @media screen and (min-width: 300px){
+    .croix{
+      right: 90px;
+     
+    }
+    
+  }
+  @media screen and (min-width: 900px){
+    .croix{
+      right: 300px;
+    }
+    
+  }
+    
+  

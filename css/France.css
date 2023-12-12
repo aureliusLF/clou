@@ -1,0 +1,468 @@
+    
+    
+
+/* import de la fonts et background */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+main{
+  color: rgb(253, 228, 196);
+
+}
+/* .popupoverlay{
+  
+  position: absolute;
+  width: 100%;
+  height:365%;
+  background: #333333d3;
+  z-index: 1;
+} 
+.popupoverlay.active{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333333d3;
+}  */
+
+/* .burger-container {
+  display: block;
+  position: absolute;
+  height: 66px;
+z-index: 999;
+
+  left: 20px;
+  top: 115px;
+}
+.burger-container.active{
+  display: none;
+}
+.popupoverlay{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height:100%;
+  background: #333333d3;
+  
+} 
+.popupoverlay.active{
+  visibility: visible;
+  position: absolute;
+  width: 100%;
+  height:365%;
+  background: #333333d3;
+  z-index: 1;
+}  */
+
+/* style de la case menant a France */
+.lafrance{
+  margin-left: 120px;
+  margin-right: -20px;
+}
+/* création de la grille conteant l'image et la citation */
+.container1{
+  margin-top: 20px;
+  margin-left: 7px;
+ display: grid;
+ grid-template-columns: 30%  10% 60%;
+ box-shadow:-5px -5px 10px  black;
+  height:auto ;
+  width: 90%;
+  
+  background-color: rgb(5, 88, 15);
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0fr;
+  grid-template-areas: 
+  "i1 i2"
+  "i3 vi";
+  
+
+}
+/* placement de la citation dans la grille */
+#citation {
+  grid-area: i3;
+  
+  font-style: italic;
+ margin-top: -30px;
+ font-family: 'Charm', cursive;
+}
+
+/* placement de l'image dans la grille */
+.lafrance img{
+  height: 20vh;
+  width: 77vh;
+  
+  margin-right: 100px;
+  object-fit: cover;
+  object-position: 10px;
+  grid-area: i2;
+  box-shadow:0px 0px 10px  black;
+  
+}
+/* placement du titre */
+.lafrance h1{
+  padding-left:25px ;
+  text-align: center;
+  grid-area: i1;
+ 
+  
+  
+}
+/* création du style de la deuxieme case */
+.histoire {
+  margin-right: 150px;
+}
+/* création de la grille séparant le titre du texte */
+.container2{
+position:relative;
+margin-top: 20px;
+ display: grid;
+ box-shadow:5px 10px 10px  black;
+background-color: rgb(5, 88, 15);
+  padding: 10px;
+  grid-template-columns: 0.4fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "i1 i2";
+
+
+}
+/* création du style de la rebrique cépage  */
+.noscep
+ {
+  text-align: center;
+  color: #000;
+}
+
+  
+.cepage
+{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+}
+/* création de la grille contenant les 4 cépages */
+  .cepgrid
+{
+    max-width: 1400px;
+    width: 90%;
+   height: auto;
+
+   
+   padding: 3px;
+
+    display: grid;
+   grid-template-columns: repeat(auto-fill,200px) ;
+   justify-content: center;
+   grid-gap: 11px;
+ 
+
+
+  
+  }
+  /* style de chaque nom de cépage */
+  .cepgrid li 
+  {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color:#d6d2d2 ;
+    height: 200px;
+    width: 12em;
+    border-radius: 2%;
+   
+ 
+  }
+.cep
+{
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 80% 10% 10%;
+  /* border: solid 0.5px #000; */
+  padding: 2%;
+  grid-template-areas:
+  "i1 i2"
+  "i3 i4";
+  text-decoration: none;
+  color: rgb(62, 27, 27); 
+}
+/* .imgbase{
+
+
+} */
+.imgbase:hover { 
+  opacity: 0.6;
+  
+}
+
+.modale{
+ display: none;
+   position: fixed;  
+z-index: 103; /* Sit on top */
+padding-top: 150px; 
+padding-left: 0%;/* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+z-index: 10;
+
+
+
+
+}
+.overlay{
+position: absolute;
+display: none;
+background-color: rgba(0, 0, 0, 0.76);
+width: 100%;
+height: 100%;
+z-index:-1;
+
+}
+.overlay.active{
+display:block ;
+z-index: 1;
+}
+.modale.active{
+  display: block;
+}
+/* .imagemodale {
+  animation-name: zoom;
+  animation-duration: 0.3s;
+  
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(2)}
+}
+.imagemodale{
+  margin: auto;
+  width: 80%;
+  display: block;
+  z-index: 104;
+  
+}  */
+
+.linecroix{
+
+  display: block;
+  margin-left: 4px;
+  height: 7px;
+  width: 100%;
+  border-radius: 20px;
+  background:  rgb(246, 245, 245);
+}
+.croix{
+  display: block;
+
+  height: 30px;   
+  width: 34px;
+
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  
+
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.noscep 
+{
+  text-align: center;
+  color: rgb(62, 27, 27);}
+/* style de l'interieur des cases */
+.cep li 
+{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-weight: 900;
+
+}
+/* création de la rebrique selection */
+/* .titreproduit {
+  text-align: center;
+  color: #000;
+}
+
+  /* conteneur parent en display flex */
+/* .product{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+} */
+/* création de la grille contenant les 4 autres grilles  */
+  /* .produitgrid{
+    max-width: 1400px;
+    width: 90%;
+   height: auto;
+
+   
+   padding: 3px;
+
+    display: grid;
+   grid-template-columns: repeat(auto-fill,200px) ;
+   justify-content: center;
+   grid-gap: 18px;
+   
+
+
+  
+  } */
+  /* style de chaque case */
+  /* .produitgrid li {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #fff;
+    height: 200px;
+    width: 12em;
+    border-radius: 2%;
+   
+ 
+  } */
+  /* grille composant chaque produit */
+  
+/* .produit{
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 80%  20%;
+   border: solid 0.5px #000; 
+  padding: 2%;
+  grid-template-areas:
+  "i1 i2"
+  "i3 i4";
+  text-decoration: none;
+  margin-bottom: 16px;
+} */
+/* adaptation des images au cadres  */
+/* .produit2 img{
+  width: 40px;
+  grid-area: i1;
+}
+.produit1 img{
+  width: 90px;
+  grid-area: i1;
+}
+.produit3 img {
+  width: 100px;
+  grid-area: i1;
+}
+.produit4 img {
+  width: 70px;
+} */
+
+/* adaptation de la description et du prix  */
+
+/* .description {
+  grid-area: i3;
+  margin-top: -1px;
+  color: #000;
+  font-weight: 700;
+  
+  
+}
+
+.prix {
+  grid-area: i4;
+  color: #6d071a;
+  font-size :20px;
+  margin-top: -30px;
+  margin-left: -10px;
+  
+  
+
+}
+.panier_produit{
+  position: absolute;
+}*/
+
+/* media et animation */
+.cep{
+ 
+  -webkit-transition: all 0.3s ease; /* Safari et Chrome */
+  transition: all 0.3s ease;
+  }
+ .cep:hover
+{
+
+  -webkit-transform:scale(1.08); /* Safari et Chrome */
+  transform:scale(1.08); 
+  }
+@media screen and (max-width: 800px){
+   .container1{
+    display: block;
+   }
+  }
+  @media  screen and (max-width: 470px) { 
+    .lafrance img{
+      height: 100px;
+      width: 15rem;
+    }
+  }
+  @media  screen and (min-width: 470px) { 
+    .lafrance img{
+      height: 110px;
+      width: 17rem;
+    }
+  }
+  
+      @media  screen and (min-width: 552px) { 
+          .lafrance img{
+            height: 120px;
+            width: 20rem;
+          }
+        }
+        @media  screen and (min-width: 662px) { 
+          .lafrance img{
+            height: 120px;
+            width:35rem;
+          }
+        }
+      
+        @media  screen and (min-width: 900px) { 
+          .lafrance img{
+            height: 150px;
+            width: 40rem;
+          }
+        }
+   
+        @media  screen and (min-width: 1000px) { 
+          .lafrance img{
+            height: 160px;
+            width: 45rem;
+          }
+        }
+          @media  screen and (min-width: 1200px) { 
+            .lafrance img{
+              height: 160px;
+              width: 47rem;
+            }
+          }
+          @media  screen and (min-width: 1300px) { 
+            .lafrance img{
+              height: 160px;
+              width: 50rem;
+            }
+          } 
+              @media  screen and (max-width: 400px) { 
+                .menu{ font-size: 0.5rem;
+                }
+              }
+            
+              
+  
